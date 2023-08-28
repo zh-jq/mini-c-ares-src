@@ -1,6 +1,6 @@
 [package]
 name = "mini-c-ares-src"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 description = "Source of c-ares and logic to build it using cmake"

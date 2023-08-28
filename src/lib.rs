@@ -12,7 +12,7 @@ pub fn build() {
     let _ = fs::remove_dir_all(&build);
     fs::create_dir(&build).unwrap();
 
-    let src = env::current_dir().unwrap().join("c-ares");
+    let src = Path::new(env!("CARGO_MANIFEST_DIR")).join("c-ares");
 
     // Export the include path for crates dependending on c-ares
     println!("cargo:include={}", src.join("include").display());
