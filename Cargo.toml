@@ -3,6 +3,8 @@ name = "mini-c-ares-src"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+description = "Source of c-ares and logic to build it using cmake"
+repository = "https://github.com/zh-jq/mini-c-ares-src"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
